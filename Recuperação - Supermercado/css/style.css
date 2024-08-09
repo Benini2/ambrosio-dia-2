@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    --background-header: #FCF0D8;
+    --background-main: #F6D68A;
+    --text-color: #1C1B1B;
+    --primary-color: #FFB400;
+    font-family:"Poppins", sans-serif;
+    color: var(--text-color);
+}
+body{
+    background-color: var(--background-main);
+}
+a{
+    text-decoration: none;
+}
+main{
+    background-color: var(--background-main);
+}
+header{
+    background-color: var(--background-header);
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding:1rem 9rem ;
+}
+.logo{
+    display: flex;
+    width: 107px;
+    height: 121px;
+}
+.opc{
+    font-weight: 600;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+    align-items: center;
+}
+.botoes{
+    display: flex;
+    gap: 0.2rem;
+}
+.botao{
+    display: flex;
+    align-items: center;
+    border:2px solid black;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 24px;
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:2rem 9rem ;
+}
+.titulo-sec1{
+    font-weight: 400;
+    font-size: 62px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.ofertas-sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 25%;
+    flex-direction: column;
+    background-color: var(--background-header);
+    border-radius: 16px;
+    gap:3rem
+}
+.titulo-ofertas{    
+    font-size: 22px;
+
+
+}
+.p-ofertas{
+    text-align: center;
+}
+.img-ofertas{
+    background-position: center;
+    background-size: cover;
+    height: 190px;
+    width: 200px;
+}
+#img1{
+    background-image: url(../img/frutas.png);
+}
+#img2{
+    background-image: url(../img/carnes.png);
+}
+#img3{
+    background-image: url(../img/bebidas.png);
+}
+.ofertas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.botao-ofertas{
+    padding: 0.5rem;
+    background-color: orange;
+    border-radius: 10px;
+}
+.image{
+    width: 90%;
+}
+.img__img{
+    width: 90%;
+    padding: 5em;
+}
+.group4{
+    display: flex;
+    background-color: var(--background-header);
+    padding: 0 0 0 3em;
+}
+.text__container{
+    text-align: right;
+    padding: 7em 5em 0 0;
+    font-size: xx-large;
+    font-family:"Poppins", sans-serif;
+}
+.botao1{
+    border: 5px solid orange;
+    border-radius: 15px;
+    background-color: orange;
+    font-family:"Poppins", sans-serif;
+}
+.text{
+    padding: 0 0 1rem 0;
+}
+.footer{
+    display: flex;
+    padding: 4em;
+}
+.qmsomos{
+    width: 50%;
+    text-align: center;
+}
+.lorem{
+    padding: 0 10em 3em;
+    font-size: small;
+}
+.titulo{
+    font-size: medium;
+    font-family:"Poppins", sans-serif;
+    padding: 1em 0  ;
+}
+.enderecos{
+    width: 50%;
+    text-align: center;
+}
+.ping{
+    width: 7%;
+}
